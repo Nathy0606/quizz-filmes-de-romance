@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Filmes de Romance</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o CSS -->
+</head>
+<body>
+
+<div class="container">
+    <h1>Quiz de Filmes de Romance</h1>
+
+    <form id="quizForm">
+        <div class="question">
+            <p>1. Qual é o nome da protagonista de "A Barraca do Beijo"?</p>
+            <ul class="options">
+                <li><input type="radio" name="q1" value="a"> Elle Evans</li>
+                <li><input type="radio" name="q1" value="b"> Rachel Green</li>
+                <li><input type="radio" name="q1" value="c"> Jo March</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p>2. Em "A Través da Minha Janela", quem é o grande amor de Raquel?</p>
+            <ul class="options">
+                <li><input type="radio" name="q2" value="a"> Gabriel</li>
+                <li><input type="radio" name="q2" value="b"> Ares</li>
+                <li><input type="radio" name="q2" value="c"> Noah</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p>3. Em "Para Todos os Garotos que Já Amei", Lara Jean tem uma relação complicada com qual personagem?</p>
+            <ul class="options">
+                <li><input type="radio" name="q3" value="a"> Peter Kavinsky</li>
+                <li><input type="radio" name="q3" value="b"> John Ambrose</li>
+                <li><input type="radio" name="q3" value="c"> Josh Sanderson</li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <p>4. Qual desses filmes é baseado em um livro de Jenny Han?</p>
+            <ul class="options">
+                <li><input type="radio" name="q4" value="a"> A Barraca do Beijo</li>
+                <li><input type="radio" name="q4" value="b"> A Través da Minha Janela</li>
+                <li><input type="radio" name="q4" value="c"> Para Todos os Garotos que Já Amei</li>
+            </ul>
+        </div>
+
+        <button type="button" class="btn" onclick="verificarRespostas()">Verificar Respostas</button>
+    </form>
+
+    <div id="feedback" class="feedback"></div>
+</div>
+
+<script src="script.js"></script> <!-- Link para o JavaScript -->
+</body>
+</html>
